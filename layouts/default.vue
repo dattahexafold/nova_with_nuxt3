@@ -1,6 +1,6 @@
 <template>
     <!-- <Navbar/> -->
-    <div>
+    <div class="main-content " style="background-color: #F5F5F5">
         <slot />
     </div>
 </template>
