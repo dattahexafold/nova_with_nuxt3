@@ -6,5 +6,6 @@ export default defineNuxtConfig({
     "bootstrap/dist/css/bootstrap.min.css",
     "~/assets/scss/argon-dashboard.scss",
     "~/assets/scss/argon-dashboard.scss",
+    "~/assets/css/nucleo-icons.css"
   ],
 });
