@@ -1,0 +1,107 @@
+/*!
+
+=========================================================
+* Vue Argon Dashboard 2 PRO - v3.0.1
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/vue-argon-dashboard-pro
+* Copyright 2022 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (site.license)
+
+* Coded by www.creative-tim.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+*/
+
+// {{ site.product.name }} components
+
+// Variables
+@import "variables/navbar-vertical";
+@import "variables/social-buttons";
+@import "variables/breadcrumb";
+
+// Mixin
+@import "mixins/mixins";
+
+// Core Components - extra styling
+@import "alert";
+@import "avatars";
+@import "badge";
+@import "buttons";
+@import "breadcrumbs";
+@import "cards";
+@import "dropdown";
+@import "dropup";
+@import "header";
+@import "fixed-plugin";
+@import "forms/forms";
+@import "footer";
+@import "gradients";
+@import "info-areas";
+@import "misc";
+@import "navbar";
+@import "navbar-vertical";
+@import "nav";
+@import "pagination";
+@import "popovers";
+@import "progress";
+@import "rtl";
+@import "social-buttons";
+@import "tables";
+@import "timeline";
+@import "tilt";
+@import "tooltips";
+@import "typography";
+
+//custom 
+@import "navbars/navbar-collapse";
+@import "navbars/navbar-dropdown";
+@import "navbars/navbar-floating";
+@import "navbars/navbar-top";
+@import "navbars/navbar-vertical";
+@import "navbars/navbar";
+
+
+// @import "~bootstrap/scss/root";
+// @import "~bootstrap/scss/reboot";
+// @import "~bootstrap/scss/type";
+// @import "~bootstrap/scss/images";
+// @import "~bootstrap/scss/code";
+// @import "~bootstrap/scss/grid";
+// @import "~bootstrap/scss/tables";
+// @import "~bootstrap/scss/forms";
+// @import "~bootstrap/scss/buttons";
+// @import "~bootstrap/scss/transitions";
+// @import "~bootstrap/scss/dropdown";
+// @import "~bootstrap/scss/button-group";
+// @import "~bootstrap/scss/input-group";
+// @import "~bootstrap/scss/custom-forms";
+// @import "~bootstrap/scss/nav";
+// @import "~bootstrap/scss/navbar";
+// @import "~bootstrap/scss/card";
+// @import "~bootstrap/scss/breadcrumb";
+// @import "~bootstrap/scss/pagination";
+// @import "~bootstrap/scss/badge";
+// @import "~bootstrap/scss/jumbotron";
+// @import "~bootstrap/scss/alert";
+// @import "~bootstrap/scss/progress";
+// @import "~bootstrap/scss/media";
+// @import "~bootstrap/scss/list-group";
+// @import "~bootstrap/scss/close";
+// @import "~bootstrap/scss/modal";
+// @import "~bootstrap/scss/tooltip";
+// @import "~bootstrap/scss/popover";
+// @import "~bootstrap/scss/carousel";
+// @import "~bootstrap/scss/utilities";
+// @import "~bootstrap/scss/print";
+
+// @import "navbars/navbar-search";
+@import "navbars/navbar-floating";
+@import "navbars/navbar-top";
+
+
+// Plugins
+@import "plugins/free/plugins";
