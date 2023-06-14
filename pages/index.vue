@@ -12,7 +12,7 @@
               >
                 <template #profile>
                   <img
-                    src="../../assets/img/team-1.jpg "
+                    src="../assets/img/team-1.jpg "
                     alt=""
                     class="user-profile mx-2"
                     style="width: 73px"
