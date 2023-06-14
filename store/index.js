@@ -1,7 +1,7 @@
 import { createStore } from "vuex";
 // import bootstrap from "bootstrap/dist/js/bootstrap.min.js";
 
-export default createStore({
+export const createStore=()=>({
   state: {
     hideConfigButton: false,
     isPinned: true,
@@ -20,11 +20,17 @@ export default createStore({
     layout: "default",
     // bootstrap,
   },
-  mutations: {
-    toggleConfigurator(state) {
+});
+
+
+
+ export const mutations=()=> {
+    toggleConfigurator(state) =()=>{
       state.showConfig = !state.showConfig;
-    },
-    navbarMinimize(state) {
+    }
+  }
+
+  export const  navbarMinimize=(state) =>{
       const sidenav_show = document.querySelector("#app");
 
       if (sidenav_show.classList.contains("g-sidenav-show") && sidenav_show.classList.contains("g-sidenav-hidden")) {
@@ -42,27 +48,33 @@ export default createStore({
         sidenav_show.classList.add("g-sidenav-hidden");
         state.isPinned = true;
       }
-    },
-    setSidebarType(state, payload) {
+    }
+
+
+   export const setSidebarType=(state, payload) =>{
       state.sidebarType = payload;
-    },
-    navbarFixed(state) {
+    }
+
+
+    export const navbarFixed=(state)=> {
       if (state.isNavFixed === false) {
         state.isNavFixed = true;
       } else {
         state.isNavFixed = false;
       }
-    },
-    toggleDefaultLayout(state) {
+    }
+
+    export const toggleDefaultLayout=(state)=> {
       state.showNavbar = !state.showNavbar;
       state.showSidenav = !state.showSidenav;
       state.showFooter = !state.showFooter;
-    },
-  },
-  actions: {
-    toggleSidebarColor({ commit }, payload) {
+    }
+  
+
+ export const actions=()=> {
+    return toggleSidebarColor=({ commit }, payload) =>{
       commit("setSidebarType", payload);
-    },
-  },
-  getters: {},
-});
+    }
+  }
+
+

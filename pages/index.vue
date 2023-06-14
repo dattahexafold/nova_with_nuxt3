@@ -14,7 +14,7 @@
                   <img
                     src="../assets/img/team-1.jpg "
                     alt=""
-                    class="user-profile mx-2"
+                    class="user-profile mx-3        "
                     style="width: 73px"
                   />
                 </template>
